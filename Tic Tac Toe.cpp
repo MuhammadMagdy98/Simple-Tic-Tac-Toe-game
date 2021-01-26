@@ -20,6 +20,7 @@ void draw_board(std::vector<std::string> &board) {
  |       |       |       |
   -----------------------
   **/
+// some comment
   for (auto row : board) {
     for (auto col : row) {
       std::cout << col;
